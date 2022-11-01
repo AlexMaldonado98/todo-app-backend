@@ -1,0 +1,18 @@
+POST http://localhost:3001/api/task
+Content-Type:application/json
+authorization:bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFsZXh1c2VyIiwiaWQiOiI2MzYwYWJkNDkwY2VlZGJlZjkxYTA2YjIiLCJpYXQiOjE2NjcyODAwODMsImV4cCI6MTY2NzM2NjQ4M30.78fSl5dpYqps_9RXKrf4EGUF9xwC39K9sGvhmewl_J4
+
+{
+    "text":"comer y ejercitarme en 2022 4",
+    "complete": false
+}
+
+###
+POST http://localhost:3001/api/task
+Content-Type:application/json
+authorization:bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFsZXh1c2VyMiIsImlkIjoiNjM2MGIzZTY2YTVmZmFjMjQ0ODQwNzAxIiwiaWF0IjoxNjY3MjgxOTAzLCJleHAiOjE2NjczNjgzMDN9.rq9Ebna1Te_-Rjt-16xILQae2zG2SvvvPfVelB9zhhE
+
+{
+    "text":"hacer tarea para sacar 10",
+    "complete": false
+}
