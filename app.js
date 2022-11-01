@@ -19,6 +19,7 @@ mongoose.connect(config.MONGODB_URI)
 app.use(cors());
 app.use(express.json());
 app.use(middleware.tokenExtractor);
+app.use(express.static('./build'));
 
 app.use('/api/user',userRouter);
 app.use('/api/task',taskRouter);
